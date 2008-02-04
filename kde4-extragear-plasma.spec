@@ -1,5 +1,5 @@
-%define		_state		stable
-
+# TODO
+# - spec vs Name
 Summary:	extragear-plasma
 Summary(pl.UTF-8):	extragear-plasma
 Name:		extragear-plasma
@@ -8,7 +8,7 @@ Release:	1
 Epoch:		0
 License:	GPL v2+
 Group:		X11/Applications
-Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/extragear/%{name}-%{version}.tar.bz2
+Source0:	ftp://ftp.kde.org/pub/kde/stable/%{version}/src/extragear/%{name}-%{version}.tar.bz2
 # Source0-md5:	44ae2fe926572e8424a80d2c64393931
 URL:		http://www.kde.org/
 BuildRequires:	bzip2-devel
@@ -18,7 +18,7 @@ BuildRequires:	qt4-qmake
 BuildRequires:	rpmbuild(macros) >= 1.213
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%description 
+%description
 plasma applets.
 
 %description -l pl.UTF-8
@@ -27,7 +27,7 @@ applety dla plasmy.
 %package -n kde4-plasma-applet-bluemarble
 Summary:	plasma-applet
 Summary(pl.UTF-8):	plasma-applet
-Group:          X11/Applications
+Group:		X11/Applications
 
 %description -n kde4-plasma-applet-bluemarble
 plasma-applet
@@ -38,7 +38,7 @@ plasma-applet
 %package -n kde4-plasma-applet-comic
 Summary:	plasma-applet
 Summary(pl.UTF-8):	plasma-applet
-Group:          X11/Applications
+Group:		X11/Applications
 
 %description -n kde4-plasma-applet-comic
 plasma-applet
@@ -49,7 +49,7 @@ plasma-applet
 %package -n kde4-plasma-applet-dict
 Summary:	plasma-applet
 Summary(pl.UTF-8):	plasma-applet
-Group:          X11/Applications
+Group:		X11/Applications
 
 %description -n kde4-plasma-applet-dict
 plasma-applet
@@ -60,7 +60,7 @@ plasma-applet
 %package -n kde4-plasma-applet-ebn
 Summary:	plasma-applet
 Summary(pl.UTF-8):	plasma-applet
-Group:          X11/Applications
+Group:		X11/Applications
 
 %description -n kde4-plasma-applet-ebn
 plasma-applet
@@ -71,7 +71,7 @@ plasma-applet
 %package -n kde4-plasma-applet-fifteenPuzzle
 Summary:	plasma-applet
 Summary(pl.UTF-8):	plasma-applet
-Group:          X11/Applications
+Group:		X11/Applications
 
 %description -n kde4-plasma-applet-fifteenPuzzle
 plasma-applet
@@ -82,7 +82,7 @@ plasma-applet
 %package -n kde4-plasma-applet-fileWatcher
 Summary:	plasma-applet
 Summary(pl.UTF-8):	plasma-applet
-Group:          X11/Applications
+Group:		X11/Applications
 
 %description -n kde4-plasma-applet-fileWatcher
 plasma-applet
@@ -93,7 +93,7 @@ plasma-applet
 %package -n kde4-plasma-applet-frame
 Summary:	plasma-applet
 Summary(pl.UTF-8):	plasma-applet
-Group:          X11/Applications
+Group:		X11/Applications
 
 %description -n kde4-plasma-applet-frame
 plasma-applet
@@ -104,7 +104,7 @@ plasma-applet
 %package -n kde4-plasma-applet-kolourpicker
 Summary:	plasma-applet
 Summary(pl.UTF-8):	plasma-applet
-Group:          X11/Applications
+Group:		X11/Applications
 
 %description -n kde4-plasma-applet-kolourpicker
 plasma-applet
@@ -115,7 +115,7 @@ plasma-applet
 %package -n kde4-plasma-applet-notes
 Summary:	plasma-applet
 Summary(pl.UTF-8):	plasma-applet
-Group:          X11/Applications
+Group:		X11/Applications
 
 %description -n kde4-plasma-applet-notes
 plasma-applet
@@ -126,7 +126,7 @@ plasma-applet
 %package -n kde4-plasma-applet-twitter
 Summary:	plasma-applet
 Summary(pl.UTF-8):	plasma-applet
-Group:          X11/Applications
+Group:		X11/Applications
 
 %description -n kde4-plasma-applet-twitter
 plasma-applet
@@ -137,7 +137,7 @@ plasma-applet
 %package -n kde4-plasma-engine
 Summary:	plasma-engine
 Summary(pl.UTF-8):	plasma-engine
-Group:          X11/Applications
+Group:		X11/Applications
 
 %description -n kde4-plasma-engine
 plasma-engine
@@ -148,7 +148,7 @@ plasma-engine
 %package -n kde4-plasma-applet-lancelot
 Summary:	New menu for KDE4
 Summary(pl.UTF-8):	Nowe menu dla KDE4
-Group:          X11/Applications
+Group:		X11/Applications
 
 %description -n kde4-plasma-applet-lancelot
 New menu for KDE4
